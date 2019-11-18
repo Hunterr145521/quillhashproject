@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { todoContext } from "../todo";
-import Update from "../../reducers/update";
 
 const BookDetails = ({todo})=>{
     const { dispatch } = useContext(todoContext);
