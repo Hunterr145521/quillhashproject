@@ -17,7 +17,7 @@ const BookDetails = ({todo})=>{
             if(todo.id  === gets[i].id && todo.user === gets[i].user){
                 console.log(todo.id, gets[i].id);
                 console.log(todo.id,gets[i].id);
-                gets[i].todo = updatedText.toString();
+                gets[i].todo = updatedText;
                 localStorage.setItem('Todos',JSON.stringify(gets));
             }
         }
